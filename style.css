@@ -109,6 +109,15 @@ nav ul li a:hover::after {
     left: 1800px;
     letter-spacing: 10px;
 }
+.title pre {
+    font-size: 17px;
+    font-weight: 300;
+    color: grey;
+    font-family: sans-serif;
+    line-height: normal;
+    left: 1800px;
+    
+}
 
 .btn a {
     position: relative;
