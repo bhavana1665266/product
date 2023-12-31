@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
-html,
-body {
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.container2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: poppins;
+    background-color: #000;
+}
+.container3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: poppins;
+    background-color: #000;
+}
+.container4 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: poppins;
+    background-color: #000;
+}
+.container{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,6 +43,15 @@ body {
     background-color: #000;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+ 
+.second{
+    width:100%;
+    height:200vh;
+    background-color: #767d88;
+}
 
 
 nav {
@@ -80,15 +122,53 @@ nav ul li a:hover::after {
     position: relative;
     width: 546px;
     left: 1.5%;
-    top: 8px;
+    top: 81px;
+
+}
+.img12 img {
+    position: relative;
+    width: 546px;
+    left: 1.5%;
+    top: 90px;
+
+}
+.img13 img {
+    position: relative;
+    width: 546px;
+    left: 150.5%;
+    top: 164px;
 
 }
 .img2 img{
     position: relative;
-    width: 602px;
-    left: 64.5%;
-    top: -332px;
+    width: 612px;
+    left: 62.5%;
+    top: -246px;
+
 }
+.img22 img{
+    position: relative;
+    width: 442px;
+    left: 197.5%;
+    top: 115px;
+
+}
+.img23 img{
+    position: relative;
+    width: 630px;
+    left: 55.5%;
+    top: 448px;
+    
+    }
+    .img24 img{
+    position: relative;
+    width: 563px;
+    left: 134.5%;
+    top: 137px;
+}
+        
+        
+
 
 .title {
     position: fixed;
@@ -100,7 +180,53 @@ nav ul li a:hover::after {
     font-weight: 550;
     color: #767d88;
 }
+.title2 {
+    position: fixed;
+    position: absolute;
+    top: 927px;
+    left: 16%;
+    line-height: 0.8;
+    font-size: 105px;
+    font-weight: 550;
+    color: #767d88;
+}
+.title3 {
+    position: fixed;
+    position: absolute;
+    top: 1700px;
+    left: 16%;
+    line-height: 0.8;
+    font-size: 50px;
+    font-weight: 550;
+    color: #767d88;
+}
+.title4 {
+    position: fixed;
+    position: absolute;
+    top: 2416px;
+    left: 12%;
+    line-height: 0.8;
+    font-size: 50px;
+    font-weight: 550;
+    color: #767d88;
+}
 .title p{
+    font-size: 30px;
+    font-weight: 300;
+    color: grey;
+    text-transform: uppercase;
+    left: 1800px;
+    letter-spacing: 10px;
+}
+.title2 p{
+    font-size: 25px;
+    font-weight: 300;
+    color: grey;
+    text-transform: uppercase;
+    left: 1800px;
+    letter-spacing: 10px;
+}
+.title3 p{
     font-size: 25px;
     font-weight: 300;
     color: grey;
@@ -110,7 +236,34 @@ nav ul li a:hover::after {
 }
 
 .title pre {
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+    font-family: sans-serif;
+    line-height: normal;
+    left: 1800px;
+    
+}
+.title2 pre {
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+    font-family: sans-serif;
+    line-height: normal;
+    left: 1800px;
+    
+}
+.title3 pre {
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+    font-family: sans-serif;
+    line-height: normal;
+    left: 1800px;
+    
+}
+.title4 pre {
+    font-size: 20px;
     font-weight: 300;
     color: grey;
     font-family: sans-serif;
@@ -132,7 +285,41 @@ nav ul li a:hover::after {
     transition: .4s;
 }
 
+.btn2 a {
+    position: relative;
+    text-decoration: none;
+    bottom: 178px;
+    right: -47%;
+    text-transform: uppercase;
+    background:#5876aa;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: .4s;
+}
+.btn3 a {
+    position: relative;
+    text-decoration: none;
+    bottom: 178px;
+    right: -47%;
+    text-transform: uppercase;
+    background:#5876aa;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+
 .btn a:hover {
+    background-color:#525151;
+    color: #fff;
+}
+.btn2 a:hover {
+    background-color:#525151;
+    color: #fff;
+}
+.btn3 a:hover {
     background-color:#525151;
     color: #fff;
 }
