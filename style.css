@@ -83,6 +83,12 @@ nav ul li a:hover::after {
     top: 8px;
 
 }
+.img2 img{
+    position: relative;
+    width: 602px;
+    left: 64.5%;
+    top: -332px;
+}
 
 .title {
     position: fixed;
