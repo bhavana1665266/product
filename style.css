@@ -79,7 +79,7 @@ nav ul li a:hover::after {
 .img img {
     position: relative;
     width: 546px;
-    left: 6.5%;
+    left: 1.5%;
     top: 8px;
 
 }
@@ -93,15 +93,14 @@ nav ul li a:hover::after {
 .title {
     position: fixed;
     position: absolute;
-    top: 234px;
-    left: 43%;
+    top: 155px;
+    left: 34%;
     line-height: 0.8;
     font-size: 100px;
     font-weight: 550;
     color: #767d88;
 }
-
-.title p {
+.title p{
     font-size: 25px;
     font-weight: 300;
     color: grey;
@@ -109,6 +108,7 @@ nav ul li a:hover::after {
     left: 1800px;
     letter-spacing: 10px;
 }
+
 .title pre {
     font-size: 17px;
     font-weight: 300;
@@ -122,10 +122,10 @@ nav ul li a:hover::after {
 .btn a {
     position: relative;
     text-decoration: none;
-    bottom: 175px;
-    right: -57%;
+    bottom: 78px;
+    right: -47%;
     text-transform: uppercase;
-    background:#7b7878;
+    background:#5876aa;
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
