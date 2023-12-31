@@ -17,7 +17,10 @@
 <body>
     <div class="container">
 
-      
+        <div class="stripes">
+           <!-- <div class="line-one"></div> -->
+           <!-- <div class="line-two"></div> -->
+        </div>
         <!-- navbar============== -->
         <nav>
             <div class="logo">
@@ -40,11 +43,11 @@
         <div class="img">
             <img src="samsung.png" alt="">
         </div>
-
+      
         <div class="title">
-            <p> Samsung</p>
+             <p> Samsung</p> 
             <span>Galaxy Z Fold.</span>
-            <pre> 
+         <pre> 
             Display: 7.6-inch Dynamic AMOLED 2X Infinity Flex Display
             Processor: Qualcomm Snapdragon 8 Gen 2 for Galaxy
             Memory: 12GB of RAM.
@@ -56,14 +59,20 @@
             running One UI 2.1 and above.
                  </pre>
         </div>
+       <!-- 
+        <div class="img3">
+            <img src="samsung3.png" alt="">
+        </div>-->
 
         <div class="btn">
             <a href="">Order Now</a>
         </div>
-         <div class="img2">
+        <div class="img2">
             <img src="Samsung2.png" alt="">
         </div>
-      
+
+
+       
     </div>
     <script>
         TweenMax.from(".logo", 1, {
@@ -106,19 +115,9 @@
             ease: Expo.easeInOut
         })
 
-        TweenMax.from(".line-one", 1, {
-            opacity: 0,
-            delay: 2,
-            y: -800,
-            ease: Expo.easeInOut
-        })
-        TweenMax.from(".line-two", 1, {
-            opacity: 0,
-            delay: 2.5,
-            y: -800,
-            ease: Expo.easeInOut
-        })
-        TweenMax.from(".img2", 2, {
+       
+        
+        TweenMax.from(".img2", 3, {
             opacity: 0,
             delay: 1,
             y: 1000,
@@ -132,7 +131,19 @@
             ease: Expo.easeInOut
         })
 
-       
+        TweenMax.from(".year", 1, {
+            opacity: 0,
+            delay: 1.4,
+            y: -20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom(".media ul li", 2, {
+            opacity: 0,
+            delay: 3.2,
+            y: 40,
+            ease: Expo.easeInOut
+        }, 0.2)
     </script>
 </body>
 
